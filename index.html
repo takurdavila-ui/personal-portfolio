@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Devisri Thakur | Full Stack Python Developer</title>
+<title> </title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
@@ -17,15 +17,38 @@ href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
 </head>
 
+<script>
 
+document.addEventListener("DOMContentLoaded", function(){
+
+const text = "Welcome to my portfolio";
+let index = 0;
+
+function type(){
+
+if(index < text.length){
+
+document.getElementById("typing-text").innerHTML += text.charAt(index);
+
+index++;
+
+setTimeout(type,80);
+
+}
+
+}
+
+type();
+
+});
+
+</script>
 <body>
 
 <!-- HEADER -->
 
 <header>
-
-<h1>Devisri Thakur</h1>
-
+    <h1> Website</h1>
 <nav>
 <ul>
 
@@ -46,29 +69,49 @@ href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 <section id="home">
 
 <div class="hero-content">
+    <script>
 
-<h2>Hello 👋 I'm <span>Devisri Thakur</span></h2>
+const text = "Welcome to my portfolio";
+let index = 0;
 
-<h3>Full Stack Python Developer</h3>
+function typingAnimation() {
+
+if(index < text.length){
+
+document.getElementById("typing-text").innerHTML += text.charAt(index);
+
+index++;
+
+setTimeout(typingAnimation, 80);
+
+}
+
+}
+
+typingAnimation();
+
+</script>
+<h2><span id="typing-text"></span></h2>
+<h1 class="name">Devisri Thakur</h1>
+
+<h3>Software Developer</h3>
 
 <p>
-Building secure and scalable web applications using
-Python, Django and modern web technologies.
+I build secure and scalable web applications using Python and Django.
+Passionate about problem solving, backend development, and creating
+real-world software solutions.Building impactful projects
+like AI-powered systems and secure web platforms.
 </p>
 
 <div class="cta">
 
-<a href="mailto:thakurdavila@gmail.com" class="btn primary">Hire Me</a>
+    <a href="mailto:thakurdavila@gmail.com" class="btn primary">Hire Me</a>
 
-<a href="/thakur_Devisri_resume.pdf" class="btn secondary" download>Resume</a>
+    <a href="/thakur_Devisri_resume.pdf" class="btn secondary" download>Resume</a>
 
-<a href="https://github.com/takurdavila-ui"
-target="_blank"
-class="btn outline">GitHub</a>
-
-</div>
-
-</div>
+    <a href="https://github.com/takurdavila-ui"
+    target="_blank"
+    class="btn outline">GitHub</a>
 
 </section>
 
@@ -266,7 +309,7 @@ GitHub
 <p>© 2026 Devisri Thakur | Full Stack Python Developer</p>
 
 </footer>
-
+<script src="script.js"></script>
 
 </body>
 
